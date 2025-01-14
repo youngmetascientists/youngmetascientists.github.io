@@ -9,10 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "PYMS"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Platform for Young Meta-Scientists"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -21,33 +21,31 @@ baseurl: ""
 url: "https://scriptor-jekyll.netlify.com"
 
 # Favicon
-favicon: images/favicon.png
+favicon: images/favicon.ico
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
-    url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Tags
-    url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+  - text: Events
+    url: /events/
+  - text: Blog
+    url: /blog/
+  - text: Members
+    url: /members/
 
 # The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
+#disqus: justgoodthemes
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#E2650F'
 
 # Site footer
 footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "[Contact](mailto:platformforyoungmetascientists@gmail.com)."
   has_social: true
 
 # Plugins
