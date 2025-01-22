@@ -1,0 +1,92 @@
+---
+layout: page
+title: Events
+---
+
+/* General card styles */
+.card {
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+/* Specific course card styles */
+.card.course {
+    margin-bottom: 1rem;
+}
+
+/* Typography for card content */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Divider between metadata */
+.middot-divider::before {
+    content: "·";
+    margin: 0 0.5rem;
+    color: #6c757d;
+}
+
+/* General box-sizing for elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Section heading */
+.section-heading h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+<div class="container">
+  <div class="row">
+    <!-- Section Heading -->
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Previous Events</h1>
+    </div>
+    
+    <!-- Events List -->
+    <div class="col-12 col-lg-8">
+      <!-- Event 1 -->
+      <div class="card course">
+        <div class="card-body">
+          <h4 class="card-title text-muted">NLRN Pre-Symposium for Young Meta-Researchers</h4>
+          <div class="card-subtitle article-metadata">
+            <a href="https://reproducibilitynetwork.nl/event/pre-symposium/" target="_blank" rel="noopener">University Medical Center Groningen</a>
+            <span class="middot-divider"></span> Dec 2024
+          </div>
+          <div class="card-text">
+            The most recent PYMS meeting was organized as a precursor to the Dutch Reproducibility Network Symposium. 
+            We get to hear amazing work of metascientists from broad range of backgrounds psychological science, computational sciences, sports and exercise science, and nanobioscience. We also had the opportunity of having Tracey Weissgerber as a keynote speaker to talk about having a career in meta-science.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
