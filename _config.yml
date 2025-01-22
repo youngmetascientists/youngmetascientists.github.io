@@ -45,7 +45,7 @@ accent_color: '#E2650F'
 
 # Site footer
 footer:
-  content: "[Contact](mailto:platformforyoungmetascientists@gmail.com)."
+  content: "[Contact](mailto:platformforyoungmetascientists@gmail.com)"
   has_social: true
 
 # Plugins
