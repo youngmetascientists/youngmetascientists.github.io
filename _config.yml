@@ -33,9 +33,9 @@ navigation:
   - text: Events
     url: events.html
   - text: Blog
-    url: /blog/
+    url: blog.md
   - text: Members
-    url: /members/
+    url: members.md
 
 # The shortname for your Disqus site to enable comments.
 #disqus: justgoodthemes
