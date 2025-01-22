@@ -29,9 +29,9 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: About
-    url: /about/
+    url: about.md
   - text: Events
-    url: /events/
+    url: events.html
   - text: Blog
     url: /blog/
   - text: Members
