@@ -3,6 +3,16 @@ layout: page
 title: members
 ---
 
+**Join our community**
+
+You can join PYMS by filling the following form and our Dicourd Server. 
+
+[Registration form](www.example.com) 
+
+[PYMS Discord](https://discord.gg/6fGBP3EJ)
+
+
+
 <div class="container">
   <div class="row justify-content-center people-widget">
     <div class="col-md-12 text-center">
