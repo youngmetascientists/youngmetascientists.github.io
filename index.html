@@ -4,28 +4,28 @@ layout: default
 
 <main class="main-content fadeInDown delay_075s">
 
-  {% for post in paginator.posts %}
-  <article class="post">
-    <header class="post-header">
-      <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{post.title}}</a></h2>
-      {% if post.feature_image and post.feature_image != "" %}
-      <figure class="post-thumbnail image-card width-wide">
-        <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.feature_image | relative_url }}"
-            alt="{{ post.title }}"></a>
-      </figure><!-- .post-thumbnail -->
-      {% endif %}
-    </header><!-- .post-header -->
-    <div class="post-content">
-      {% if post.content contains '<!--more-->' %}
-      {{ post.content | split:'<!--more-->' |  truncatewords: 50 }}
-      <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
-      </p>
-      {% else %}
-      {{ post.content }}
-      {% endif %}
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-  {% endfor %}
+{% for post in paginator.posts %}
+<article class="post">
+  <header class="post-header">
+    <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+    {% if post.feature_image and post.feature_image != "" %}
+    <figure class="post-thumbnail image-card width-wide">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">
+      </a>
+    </figure><!-- .post-thumbnail -->
+    {% endif %}
+  </header><!-- .post-header -->
+  <div class="post-content">
+    <!-- Display only the first 50 words -->
+    {{ post.content | strip_html | truncatewords: 50 }}
+    <p class="read-more">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
+    </p>
+  </div><!-- .post-content -->
+</article><!-- .post -->
+{% endfor %}
+
 
   {% if paginator.total_pages > 1 %}
   <nav class="pagination">
