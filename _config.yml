@@ -29,13 +29,13 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: About
-    url: about.md
+    url: about
   - text: Events
     url: events.html
   - text: Blog
-    url: blog.md
+    url: blog
   - text: Members
-    url: members.md
+    url: members
 
 # The shortname for your Disqus site to enable comments.
 #disqus: justgoodthemes
