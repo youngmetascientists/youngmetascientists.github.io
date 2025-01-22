@@ -35,7 +35,7 @@ a {
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   &:hover {
-    color: _palette(secondary);
+    color: #082566;
     text-decoration: underline;
   }
 }
@@ -327,7 +327,7 @@ video {
 	&:focus,
 	&:active {
 		border-color: _palette(accent);
-    color: _palette(accent);
+    color: #082566;
 		outline: 0;
 	}
 }
