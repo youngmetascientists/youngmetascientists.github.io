@@ -21,7 +21,7 @@ layout: default
     </header><!-- .post-header -->
     <div class="post-content">
       {% if post.content contains '<!--more-->' %}
-      {{ post.content | split:'<!--more-->' |  truncatewords: 50  }}
+      {{ post.content | split:'<!--more-->' | first }}
       <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
       </p>
       {% else %}
