@@ -225,8 +225,19 @@ table tbody > tr:nth-child(odd) {
   background: _palette(bg);
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   border-radius: 3px;
+  height: auto;
+  max-width: 100%;
+}
+
+img .avatar {
+  border-radius:50%;
+  object-fit: cover;
   height: auto;
   max-width: 100%;
 }
