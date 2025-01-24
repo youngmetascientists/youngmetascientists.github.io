@@ -33,7 +33,7 @@ navigation:
   - text: Events
     url: events.html
   - text: Blog
-    url: blog
+    url: blog.html
   - text: Members
     url: members.html
 
