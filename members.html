@@ -8,34 +8,63 @@ layout: default
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-  <style>
-    h2 {
-      font-size: 1.6rem;
-      margin-top: 1.25rem;
-      font-weight: bold;
-      font-weight: 800;
-      line-height: 1.1;
-      text-align:center;
-    }
-    h3 {
-      font-size: 1.1rem;
-      margin-top: 1.25rem;
-      font-weight: 400;
-      line-height: 1.1;
-      text-align:center;
-    }
-    li {
-      float: left;
-      margin-right: 1em;
-    }
-    img {
-    width: 200px; /* Set the desired size */
-    height: 200px; /* Ensure a square shape */
-    object-fit: cover; /* Ensures the image scales and crops correctly */
-    border-radius: 50%; /* Makes the image circular */
-    }
 
-  </style>
+
+<style>
+  .people-person {
+    text-align: center; /* Centers content inside each member's box */
+  }
+
+  .people-person img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto; /* Centers the image */
+  }
+
+  .portrait-title {
+    margin-top: 1em;
+  }
+
+  .portrait-title h2 {
+    font-size: 1.6rem;
+    margin: 0.5em 0; /* Adds some space around the title */
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .portrait-title h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0.5em 0; /* Adds spacing below the role */
+  }
+
+  .network-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    gap: 10px; /* Adds spacing between the icons */
+  }
+
+  .network-icon li {
+    margin: 0;
+  }
+
+  .network-icon a {
+    color: #555; /* Default icon color */
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+
+  .network-icon a:hover {
+    color: #082566; /* Hover color */
+  }
+</style>
+
 
 
 <div class="container">
