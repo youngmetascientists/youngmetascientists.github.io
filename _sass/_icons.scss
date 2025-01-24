@@ -6,7 +6,9 @@
   font-family: 'Nunito';
   src:
     url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    url('../fonts/fontawesome.svg?471qre#FontAwesome') format('svg');
 }
+
 [class^="fa-"], [class*=" fa-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   //font-family: 'FontAwesome' !important;
