@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Platform for Young Meta-Scientists (PYMS): Discussing the Future of Meta-Science 
+title: "Platform for Young Meta-Scientists (PYMS): Discussing the Future of Meta-Science "
 ---
 
 The goal of our organization, the Platform for Young Meta-Scientists (PYMS), is to bring together Early Career Researchers (ECRs) working on meta-science, while providing a place to network with peers and discuss research. We consider this an important initiative as ECRs have been at the forefront of many reform initiatives, and because despite the increasing number of meta-science ECRs, many still work disconnected from other researchers with shared interests. Bringing ECRs together is a crucial step in enabling large scale research and strengthening reform initiatives that are key to improving science.
