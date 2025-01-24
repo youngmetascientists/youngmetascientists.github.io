@@ -11,8 +11,21 @@ layout: default
 
 
 <style>
+  .people-widget {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center;
+    align-items: stretch; /* Aligns items to the same height */
+  }
+
   .people-person {
-    text-align: center; /* Centers content inside each member's box */
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: space-between; /* Ensures consistent spacing */
+    padding: 20px; /* Adds padding for proper spacing */
+    text-align: center;
+    height: 100%; /* Ensures all elements have equal height */
   }
 
   .people-person img {
@@ -20,25 +33,28 @@ layout: default
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 0 auto; /* Centers the image */
   }
 
   .portrait-title {
-    margin-top: 1em;
+    flex-grow: 1; /* Ensures equal spacing for title and role */
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: space-between; /* Ensures even spacing within the box */
+    margin-top: 15px;
   }
 
   .portrait-title h2 {
     font-size: 1.6rem;
-    margin: 0.5em 0; /* Adds some space around the title */
     font-weight: 800;
     line-height: 1.1;
+    margin: 0.5em 0;
   }
 
   .portrait-title h3 {
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.2;
-    margin: 0.5em 0; /* Adds spacing below the role */
+    margin: 0.5em 0;
   }
 
   .network-icon {
@@ -46,8 +62,8 @@ layout: default
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centers the icons horizontally */
-    gap: 10px; /* Adds spacing between the icons */
+    justify-content: center; /* Aligns icons horizontally */
+    gap: 10px; /* Adds spacing between icons */
   }
 
   .network-icon li {
@@ -55,13 +71,13 @@ layout: default
   }
 
   .network-icon a {
-    color: #555; /* Default icon color */
+    color: #555;
     font-size: 1.5rem;
     transition: color 0.3s ease;
   }
 
   .network-icon a:hover {
-    color: #082566; /* Hover color */
+    color: #007bff;
   }
 </style>
 
