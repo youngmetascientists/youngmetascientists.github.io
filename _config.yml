@@ -48,6 +48,12 @@ footer:
   content: "[Contact](mailto:platformforyoungmetascientists@gmail.com)"
   has_social: true
 
+# collections
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:title/
+
 # Plugins
 plugins:
   - jekyll-paginate
