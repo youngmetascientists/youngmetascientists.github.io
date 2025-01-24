@@ -10,23 +10,22 @@ layout: default
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-
 <style>
   .people-widget {
     display: flex;
-    flex-wrap: wrap; /* Wraps rows for responsiveness */
+    flex-wrap: wrap; /* Ensures responsiveness */
     justify-content: center;
+    align-items: stretch; /* Aligns items to the same height */
   }
 
   .people-person {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Aligns content to the top */
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: space-between; /* Ensures consistent spacing */
+    padding: 20px; /* Adds padding for proper spacing */
     text-align: center;
-    padding: 20px;
-    flex: 1 0 20%; /* Makes the cards responsive */
-    max-width: 300px; /* Prevents cards from stretching too much */
+    height: 100%; /* Ensures all elements have equal height */
   }
 
   .people-person img {
@@ -34,28 +33,37 @@ layout: default
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 15px; /* Adds space between image and text */
   }
 
   .portrait-title {
+    flex-grow: 1; /* Ensures equal spacing for title and role */
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensures even spacing */
-    flex-grow: 1; /* Ensures all items align to the same height */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: space-between; /* Ensures even spacing within the box */
+    margin-top: 15px;
   }
 
-  .portrait-title h2,
+  .portrait-title h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0.5em 0;
+  }
+
   .portrait-title h3 {
-    margin: 5px 0; /* Adds consistent margins */
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0.5em 0;
   }
 
   .network-icon {
-    display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 10px 0 0; /* Adds spacing above icons */
-    gap: 15px; /* Ensures equal spacing between icons */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Aligns icons horizontally */
+    gap: 10px; /* Adds spacing between icons */
   }
 
   .network-icon li {
@@ -63,22 +71,16 @@ layout: default
   }
 
   .network-icon a {
-    font-size: 1.5rem; /* Ensures icon size consistency */
     color: #555;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
   }
 
   .network-icon a:hover {
-    color: #007bff; /* Changes color on hover */
-  }
-
-  /* Adjust heights of all elements for alignment */
-  .people-person h2,
-  .people-person h3,
-  .people-person ul {
-    margin: 0 auto;
+    color: #007bff;
   }
 </style>
+
 
 
 <br>
@@ -164,7 +166,9 @@ layout: default
 </div>
 
 
+<br>
 
+<br>
 
 <div class="container">
   <div class="row justify-content-center people-widget">
