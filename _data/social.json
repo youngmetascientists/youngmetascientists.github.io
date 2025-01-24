@@ -2,22 +2,22 @@
   "links": [
     {
       "title": "Twitter",
-      "icon": "fa-twitter",
+      "icon": "fab fa-twitter",
       "url": "https://twitter.com/"
     },
     {
       "title": "GitHub",
-      "icon": "fa-github",
+      "icon": "fab fa-github",
       "url": "https://github.com/"
     },
     {
       "title": "Instagram",
-      "icon": "fa-instagram",
+      "icon": "fab fa-instagram",
       "url": "https://www.instagram.com/"
     },
     {
       "title": "LinkedIn",
-      "icon": "fa-linkedin",
+      "icon": "fab fa-linkedin",
       "url": "https://www.linkedin.com/"
     }
   ]
