@@ -1,19 +1,9 @@
 {
   "links": [
     {
-      "title": "Twitter",
-      "icon": "fab fa-twitter",
-      "url": "https://twitter.com/"
-    },
-    {
-      "title": "GitHub",
-      "icon": "fab fa-github",
-      "url": "https://github.com/"
-    },
-    {
-      "title": "Instagram",
-      "icon": "fab fa-instagram",
-      "url": "https://www.instagram.com/"
+      "title": "Bluesky",
+      "icon": "fab fa-brands fa-bluesky",
+      "url": "https://bsky.app/profile/youngmetascience.bsky.social"
     },
     {
       "title": "LinkedIn",
