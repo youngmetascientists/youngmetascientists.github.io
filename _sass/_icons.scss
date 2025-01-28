@@ -24,8 +24,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .fa-rss:before {
   content: "\f09e";
+}
+.fa-bluesky:before {
+  content: "\e671";
 }
 .fa-envelope:before {
   content: "\f0e0";
