@@ -52,7 +52,7 @@ footer:
 
 # collections
 collections:
-  blogs:
+  blog:
     output: true
     permalink: /blogs/:title/
 
