@@ -40,9 +40,23 @@ $palette: (
   bg:        #fbfbfb
 );
 
+
+// Icons
+.fa-envelope:before {
+  content: "\f0e0"; 
+}
+
+.fa-linkedin:before {
+  content: "\f08c"; 
+}
+
+.fa-bluesky:before {
+  content: "\e671"; 
+}
+
+
 // Imports
 @import "functions";
-@import "icons";
 @import "reset";
 @import "general";
 @import "structure";
