@@ -2,17 +2,17 @@
   "links": [
     {
       "title": "Bluesky",
-      "icon": "fab fa-bluesky",
+      "icon": "fa fa-bluesky",
       "url": "https://bsky.app/profile/youngmetascience.bsky.social"
     },
     {
       "title": "LinkedIn",
-      "icon": "fab fa-linkedin",
+      "icon": "fa fa-linkedin",
       "url": "https://www.linkedin.com/company/platform-for-young-meta-scientists/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BIju%2FgCpsRK2QC85uVpT4qw%3D%3D"
     },
     {
       "title": "Email",
-      "icon": "fab .fa-envelope",
+      "icon": "fa fa-envelope",
       "url": "mailto:platformforyoungmetascientists@gmail.com"
     }
   ]
