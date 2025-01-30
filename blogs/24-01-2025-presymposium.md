@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: post
 title: "Platform for Young Meta-Scientists (PYMS): Discussing the Future of Meta-Science "
 ---
 
