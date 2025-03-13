@@ -20,7 +20,7 @@ baseurl: ""
 permalink: pretty
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://youngmetascientists.github.io"
 
 # Favicon
 favicon: images/favicon.ico
