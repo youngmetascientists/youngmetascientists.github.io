@@ -4,84 +4,104 @@ layout: page
 
 
 
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+    .gallery {
+      border: 1px solid #ccc;
+      overflow: hidden;
+      background: #fff;
+    }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
+    .desc {
+      padding: 15px;
+      text-align: center;
+      height: 60px;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
 
-<div class="gallery">
-  <a target="_blank" href="images/M1.jpg">
-    <img src="images/M1.jpg" alt="Metasceince 2025" width="600" height="400">
-  </a>
-  <div class="desc">Metasceince 2025 <br> Photography by Layton Thompson and Benjamin Wetherall</div>
+    .gallery:hover {
+      border-color: #777;
+    }
+  </style>
+
+<div class="gallery-container">
+
+  <div class="gallery">
+    <a target="_blank" href="images/M1.jpg">
+      <img src="images/M1.jpg" alt="Metascience 2025">
+    </a>
+    <div class="desc">Metascience 2025<br>Photography by Layton Thompson and Benjamin Wetherall</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/M2.jpg">
+      <img src="images/M2.jpg" alt="Metascience 2025">
+    </a>
+    <div class="desc">Metascience 2025<br>Photography by Layton Thompson and Benjamin Wetherall</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/M3.jpg">
+      <img src="images/M3.jpg" alt="Metascience 2025">
+    </a>
+    <div class="desc">Metascience 2025<br>Photography by Layton Thompson and Benjamin Wetherall</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/M4.jpg">
+      <img src="images/M4.jpg" alt="Metascience 2025">
+    </a>
+    <div class="desc">Metascience 2025<br>Photography by Layton Thompson and Benjamin Wetherall</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/s1.jpeg">
+      <img src="images/s1.jpeg" alt="PYMS Symposium">
+    </a>
+    <div class="desc">PYMS Summer Symposium 2025</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/s2.jpeg">
+      <img src="images/s2.jpeg" alt="PYMS Symposium">
+    </a>
+    <div class="desc">PYMS Summer Symposium 2025</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/s3.jpeg">
+      <img src="images/s3.jpeg" alt="PYMS Symposium">
+    </a>
+    <div class="desc">PYMS Summer Symposium 2025</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/s4.jpeg">
+      <img src="images/s4.jpeg" alt="PYMS Symposium">
+    </a>
+    <div class="desc">PYMS Summer Symposium 2025</div>
+  </div>
+
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="images/M2.jpg">
-    <img src="images/M2.jpg" alt="Metasceince 2025" width="600" height="400">
-  </a>
-  <div class="desc">Metasceince 2025 <br> Photography by Layton Thompson and Benjamin Wetherall</div>
-</div>
 
-<div class="gallery">
-  <a target="_blank" href="images/M3.jpg">
-    <img src="images/M3.jpg" alt="Metasceince 2025" width="600" height="400">
-  </a>
-  <div class="desc">Metasceince 2025 <br> Photography by Layton Thompson and Benjamin Wetherall</div>
-</div>
 
-<div class="gallery">
-  <a target="_blank" href="images/M4.jpg">
-    <img src="images/M4.jpg" alt="Metasceince 2025" width="600" height="400">
-  </a>
-  <div class="desc">Metasceince 2025 <br> Photography by Layton Thompson and Benjamin Wetherall</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="images/s1.jpeg">
-    <img src="images/s1.jpeg" alt="PYMS Symposium" width="600" height="400">
-  </a>
-  <div class="desc">PYMS Summer Symposium 2025</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="images/s2.jpeg">
-    <img src="images/s2.jpeg" alt="PYMS Symposium" width="600" height="400">
-  </a>
-  <div class="desc">PYMS Summer Symposium 2025</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="images/s3.jpeg">
-    <img src="images/s3.jpeg" alt="PYMS Symposium" width="600" height="400">
-  </a>
-  <div class="desc">PYMS Summer Symposium 2025</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="images/s4.jpeg">
-    <img src="images/s4.jpeg" alt="PYMS Symposium" width="600" height="400">
-  </a>
-  <div class="desc">PYMS Summer Symposium 2025</div>
-</div>
 
 
 
