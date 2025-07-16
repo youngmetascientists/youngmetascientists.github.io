@@ -38,6 +38,8 @@ navigation:
     url: /blog.html
   - text: Members
     url: /members.html
+  - text: Gallery
+    url: /gallery.html
 
 # The shortname for your Disqus site to enable comments.
 #disqus: justgoodthemes
