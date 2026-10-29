@@ -3,6 +3,8 @@ layout: post
 title: "Join the Board of the Platform for Young Meta-Scientists (PYMS)"
 ---
 
+**The board positions have been filled! Thank you to everyone who applied.**
+
 Are you an early-career researcher passionate about meta-science? As one of our current board members is stepping down, we're looking for a passionate new board member to help shape the future of the PYMS community.
 
 If you are not familiar with PYMS and want to get more general information, you can find it in the [‘About PYMS’](https://youngmetascientists.github.io/about) tab.
